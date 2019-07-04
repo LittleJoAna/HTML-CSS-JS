@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700i&display=swap');
+body {
+    background-color:#f8f8f8
+}
+
+.menu a {
+    font-family: 'Roboto', sans-serif;
+    font-variant: small-caps;
+}
+
+.menu li {
+     list-style-type: none;
+}
+
+.titleProduct {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.briefDescription {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.detailedDescription {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.characteristics {
+    color: darkolivegreen;
+    font-style: oblique;
+    list-style-image: url(../img/emoji-book-review-sticker-salt-sugar-fat-how-the-food-giants-hooked-us-books_photo-resizer.ru.jpg);
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: black;
+}
