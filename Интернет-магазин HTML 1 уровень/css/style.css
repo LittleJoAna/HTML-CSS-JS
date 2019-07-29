@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700i&display=swap');
 body {
     background-color:#f8f8f8
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu a {
-    font-family: 'Roboto', sans-serif;
     font-variant: small-caps;
 }
 
@@ -12,21 +12,21 @@ body {
      list-style-type: none;
 }
 
-.titleProduct {
+.title-product {
     color: black;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
 }
 
-.briefDescription {
+.brief-description {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
 
-.detailedDescription {
+.detailed-description {
     color: #484343;
     font-size: 16px;
     font-weight: 400;

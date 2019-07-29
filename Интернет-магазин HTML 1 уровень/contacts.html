@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <title>Контакты</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,12 +18,18 @@
 <h2>Напишите нам:</h2>
 
 <form action="#" class="msg">
-<label>Ваше имя: <input type="text" placeholder="Введите имя"></label> <br>
-<label>Ваш e-mail: <input type="text" placeholder="Введите e-mail"></label><br>
-<label>Тема сообщения: <input type="text" placeholder="Введите тему вашего сообщения"></label><br>
-<textarea name="" id=""></textarea> <br>
-<label>Вы&nbsp;довольны обслуживанием на&nbsp;нашем сайте?<br>
-Да <input type="radio" checked name="serviceRadio"> Нет <input type="radio" name="serviceRadio"></label><br>
+<label for="name">Ваше имя: </label>
+<input id="name" name="name" type="text" placeholder="Введите имя"> <br>
+<label for="email">Ваш e-mail: </label>
+<input id="email" name="email" type="text" placeholder="Введите e-mail"><br>
+<label for="topic-massage">Тема сообщения: </label>
+<input id="topic-massage" name="topic-massage" type="text" placeholder="Введите тему вашего сообщения"><br>
+<textarea name="text-massage"></textarea> <br>
+
+<p>Вы&nbsp;довольны обслуживанием на&nbsp;нашем сайте?</p><br>
+<label>Да <input type="radio" checked name="serviceRadio" value="yes"> </label>
+<label>Нет <input type="radio" name="serviceRadio" value="no"></label><br>
+
 <input type="submit" value="Отправить сообщение"> <input type="reset" value="Сбросить все поля">
 </form>
 <br>
